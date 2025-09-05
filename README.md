@@ -13,7 +13,7 @@ Analyze 50k career/job records using SQL to extract actionable insights about jo
 - Joins (INNER, LEFT, RIGHT)  
 - Aggregations (SUM, COUNT, AVG, MAX, MIN)  
 - Subqueries   
-- Window Functions (RANK, ROW_NUMBER, PARTITION BY)  
+- Window Functions 
 
 ## 💡 Business Insights  
 - Identified top industries hiring the most candidates  
