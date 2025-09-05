@@ -30,7 +30,7 @@ Analyze 50k career/job records using SQL to extract actionable insights about jo
 - `README.md` → Project summary & documentation  
 
 ## 📈 ER Diagram  
-![ER Diagram](CareerLens_ER_Diagram.png)  
+![ER Diagram](https://github.com/Aastha-collab/CareerLens-Google--SQL-Project/blob/fd1674ac696609bf2b2164b53625deea0836b556/Careerlens_ER%20Diagram.png)  
 
 ##  How to Run  
 1. Import the `.xlsx` file into MySQL Workbench.  
