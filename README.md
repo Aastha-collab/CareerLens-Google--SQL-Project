@@ -12,8 +12,7 @@ Analyze 50k career/job records using SQL to extract actionable insights about jo
 ##  SQL Techniques Used  
 - Joins (INNER, LEFT, RIGHT)  
 - Aggregations (SUM, COUNT, AVG, MAX, MIN)  
-- Subqueries  
-- CTEs (Common Table Expressions)  
+- Subqueries   
 - Window Functions (RANK, ROW_NUMBER, PARTITION BY)  
 
 ## 💡 Business Insights  
