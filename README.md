@@ -36,4 +36,23 @@ Analyze 50k career/job records using SQL to extract actionable insights about jo
 2. Execute queries from the `.sql` file.  
 3. Visualize database structure with the ER diagram.    
 
+## Queries + Insights 
+eg- Locations with Highest Offer Conversion
 
+SELECT jp.Location,
+SUM(CASE WHEN a.Application_Status = 'Offered' THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS Offer_Rate
+FROM Job_Postings jp
+JOIN Applicants a ON jp.Job_ID = a.Applied_Job_ID
+GROUP BY jp.Location
+ORDER BY Offer_Rate DESC;
+
+-- Insight: London offer rate is the highest.
+
+eg- Top Companies Posting Jobs
+
+SELECT Company, COUNT(*) AS Jobs
+FROM job_postings
+GROUP BY Company
+ORDER BY Jobs DESC;
+
+-- Insight: Among all the google brands, you tube is the top Company posting Jobs.
