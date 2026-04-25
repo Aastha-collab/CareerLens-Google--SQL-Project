@@ -15,14 +15,14 @@ Analyze 50k career/job records using SQL to extract actionable insights about jo
 - Subqueries   
 - Window Functions 
 
-## 💡 Business Insights  
+## Business Insights  
 - Identified top industries hiring the most candidates  
 - Conversion Rate of Applicants to Offers
 - Analyzed top Companies Posting Jobs  
 - Locations with Highest Offer Conversion
 - Experience Level vs Offer Rate  
 
-## 🗂️ Project Files  
+## Project Files  
 - `careerlens_google_db.xlsx` → Cleaned Dataset  
 - `CareerLens Google - SQL - Project.sql` → SQL queries (basic → advanced)  
 - `CareerLens_ER_Diagram.png` → Database schema (ER diagram)  
